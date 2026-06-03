@@ -15,6 +15,8 @@ Das Ziel des Projektes, ein digitales Partner der Arbeitsuchenden zu werden und 
 
 ### ARCHITEKTUR
 
+![My Project Screenshot](assets\architecture\DigitalJobAssistentArchitecture.jpg)
+
 <hr>
 
 ### TECH-STACK
@@ -38,4 +40,4 @@ Das Ziel des Projektes, ein digitales Partner der Arbeitsuchenden zu werden und 
 #### LINK ZUM CODE
 
 https://github.com/PavelKuzia/jobpilot</br>
-<i>private repo - für Zugriff bitte um Rückmeldung</i>
+<i>private repo - für Zugriff bitte um Anfrage</i>
