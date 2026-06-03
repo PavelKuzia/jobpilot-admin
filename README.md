@@ -15,7 +15,7 @@ Das Ziel des Projektes, ein digitales Partner der Arbeitsuchenden zu werden und 
 
 ### ARCHITEKTUR
 
-![My Project Screenshot](assets\architecture\DigitalJobAssistentArchitecture.jpg)
+![My Project Screenshot](assets\public\DigitalJobAssistentArchitecture.jpg)
 
 <hr>
 
