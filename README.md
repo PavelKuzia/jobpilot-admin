@@ -1,5 +1,11 @@
 # DIGITALES JOB BERATER
 
+### Überblick
+
+JobPilot ist eine Full-Stack-Plattform zur automatisierten Aggregation, Analyse und Visualisierung von Stellenanzeigen.
+
+Das System sammelt Stellenangebote aus verschiedenen Quellen, verarbeitet Jobanforderungen und Unternehmensinformationen und unterstützt Arbeitssuchende durch datenbasierte Einblicke in den Arbeitsmarkt. Durch eine skalierbare, ereignisgesteuerte Architektur können große Datenmengen effizient verarbeitet und analysiert werden.
+
 ### PROBLEMSTELLUNG
 
 Immer wieder hört man in Deutschland, dass die Lage am Arbeitsmarkt angespannt ist. Außerdem weist der Arbeitsmarkt aufgrund von Entstehen neuen Technologien höhe Dynamik auf. Folglich steigt der Bedarf nach Spezialisten, die den Arbeitsmarks analyzieren und Beratung in Jobsuche anbieten.
@@ -19,21 +25,46 @@ Das Ziel des Projektes, ein digitales Partner der Arbeitsuchenden zu werden und 
 
 <hr>
 
+### Hauptfunktionen
+
+- Aggregation von Stellenanzeigen aus mehreren Quellen
+- Automatisierte Datenerfassung mittels Python-basierter Web-Scraper
+- Analyse von Stellenanforderungen und Unternehmensinformationen
+- Filterung von Stellenangeboten anhand individueller Suchkriterien
+- Visualisierung von Arbeitsmarkttrends und Stellenanforderungen
+- Asynchrone Verarbeitung großer Datenmengen
+- Skalierbare Microservice-Architektur
+
 ### TECH-STACK
 
-<b>INFRASTRUKTUR</b></br>
-&emsp;**Docker Compose**: für Dev Entwicklungsumgebung</br>
-&emsp;**Kubernetes**: für Prod Entwicklungsumgebung</br>
+<b>FRONTEND</b></br>
+
+- React
+- TypeScript
 
 <b>BACKEND</b></br>
-&emsp;**Java (Spring Boot)**: Verwalter, der alle Anfragen verarbeitet und Kommunikation mit Jobs, KI Systemen und Datenbanken ermöglicht</br>
-&emsp;**Python (Selenium, TaskIQ, FastAPI)**: Jobs, die Daten von unterschiedlichen Diensten auf Anfrage sammeln und an die Spring Boot Application zurückgeben</br>
-&emsp;**RabbitMQ**: Nachrichtenvermittler, der Systementkopplung ermöglicht</br>
-&emsp;**PostgreSQL**: Datenbank</br>
-&emsp;**Redis**: In-Memory-Datenbank</br>
 
-<b>FRONTEND</b></br>
-&emsp;**React (TypeScript)**: SPA (Single Page Application)
+- Java
+- Spring Boot
+
+<b>DATENERFASSUNG</b></br>
+
+- Python
+
+<b>MESSAGING</b></br>
+
+- RabbitMQ
+
+<b>DATEN</b></br>
+
+- PostgreSQL
+- Redis
+
+<b>INFRASTRUKTUR</b></br>
+
+- Docker
+- Docker Compose
+- Kubernetes
 
 <hr>
 
